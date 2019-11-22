@@ -1,0 +1,45 @@
+
+
+
+html, body {
+  margin: 0;
+  font-family: 'Dr Sugiyama', cursive;
+  background-color: #d7c3a6;  
+  font-size: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  overflow: hidden;
+  background-color: #d69b3d;
+  list-style: none;
+  position: sticky;
+  top: 0;
+}
+
+li a {
+  float: left;
+  color: #a25016;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+li a:hover {
+  background-color: #750202;
+  color: black;
+  font-weight: bolder;
+}
+
+.active {
+  background-color: #59200f;
+  color: white;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap" rel="stylesheet"> 
